@@ -35,3 +35,22 @@
     background-repeat: no-repeat;
     padding:200px;
     }
+    .whatwedo {
+      font-family: 'PT Sans Narrow', sans-serif;
+      }
+    .whatwedo h1 {
+        text-align: center;
+        padding: 50px;
+      }
+    .design {
+        text-align: center
+      }
+      .designdescription {
+        display: none;
+      }
+      .developmentdescription {
+        display: none;
+      }
+      .managementdescription {
+        display: none;
+      }  
