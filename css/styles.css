@@ -54,3 +54,14 @@
       .managementdescription {
         display: none;
       }  
+      .contact {
+        background-image: url("../img/c_image.jpg");
+        width: 100%;
+        height: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 50px;
+        color: white;
+        padding-bottom: 300px;
+        text-align: center;
+      }
