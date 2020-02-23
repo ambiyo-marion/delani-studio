@@ -1,11 +1,20 @@
 $(document).ready(function() {
     $("#icondesign").click(function() {
-      $("p").toggle();
+      $(".designdescription").toggle();
     });
     $("#development").click(function() {
-        $("p").toggle();
+        $(".developmentdescription").toggle();
       });
       $("#management").click(function() {
-        $("p").toggle();
+        $(".managementdescription").toggle();
+      });
+      $("#submitbutton").click(function(){
+        var messageHere = (document.getElementById("messagehere").value);
+        var name = (document.getElementById("name").value);
+        if(messageHere != "") {
+        alert(name + " we have received your message. Thank you for reaching out to us.");
+      } else {
+        alert("Please fill out form before submitting");
+      }
       });
 });
