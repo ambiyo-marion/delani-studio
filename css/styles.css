@@ -95,7 +95,7 @@
 
         padding-top: 115px;
       }
-      #work1-girrafe{
+      #work8-giraffe{
         text-align: center;
         background-color: white;
         display: none;
@@ -103,7 +103,7 @@
 
         padding-top: 115px;
       }
-      #work8-entertainment{
+      #work1-entertain{
         text-align: center;
         background-color: white;
         display: none;
@@ -135,3 +135,7 @@
 
         padding-top: 115px;
       } 
+      .portfolio{
+        text-align: center;
+        
+      }

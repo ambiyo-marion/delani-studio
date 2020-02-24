@@ -29,7 +29,7 @@ $(document).ready(function() {
       $("#work1-img").toggle()
   });
   $(".work7-image").hover(function(){
-      $("#work7-log").toggle()
+      $("#work7-logo").toggle()
       $("#work7-img").toggle()
   });
   $(".work6-image").hover(function(){
